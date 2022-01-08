@@ -15,5 +15,11 @@ pipeline {
       }
     }
 
+    stage('check') {
+      steps {
+        echo 'This is check'
+      }
+    }
+
   }
 }
